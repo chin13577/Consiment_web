@@ -1,0 +1,46 @@
+@charset "utf-8";
+/* CSS Document */
+
+#product_table {
+	border-width: 1px;
+	border-style: solid;
+	border-collapse: collapse;
+	width: 50%;
+	height: 50%;
+	position: relative;
+}
+#product_table td,th {
+	border-style: solid;
+	border-width: 1px;
+}
+.pop {
+	position: fixed;
+	width: 80vw;
+	height: 80vh;
+	left: 10vw;
+	right: 10vw;
+	border-style: solid;
+	border-width: 1px;
+	top: 10vh;
+	bottom: 10vh;
+	background-color: #FFFFFF;
+	display: none;
+}
+#pop_close {
+	cursor: pointer;
+	width: 5vw;
+	height: 10vh;
+	left: 10vw;
+	top: 10vh;
+	position: fixed;
+	display: none;
+}
+.padding {
+	border-style: solid;
+	border-width: 1px;
+	position: relative;
+	width: 50%;
+	text-align: center;
+	left: 0px;
+	top: 0px;
+}
